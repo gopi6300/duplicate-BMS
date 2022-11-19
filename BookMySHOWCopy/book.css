@@ -99,3 +99,18 @@ a{
   padding-top: 20px;
   text-align: center;
 }
+
+.movies{
+    scroll-behavior: smooth;
+    transition: transform 1000ms ease 0s;
+    overscroll-behavior-x: contain;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(10, calc((100% - 128px) / 5));
+    grid-template-rows: repeat(1, 1fr);
+    grid-auto-flow: column;
+    gap: 8px 32px;
+    overflow: scroll hidden;
+    transform: initial;
+    padding-left: 50px;
+}

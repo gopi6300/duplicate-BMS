@@ -4,6 +4,7 @@
   padding: 0;
   overflow: hidden;
   background-color: #353839;
+  width: auto;
 }
 
 .list {
@@ -17,6 +18,7 @@
   padding: 10px 14px;
   text-decoration: none;
   margin-left: 30px;
+  width: auto;
 }
 form{
   padding: 20px 25px;
